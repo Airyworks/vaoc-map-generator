@@ -1,0 +1,21 @@
+{
+    "presets": [
+        "@babel/env",
+        "@babel/typescript"
+    ],
+    "plugins": [
+        ["@babel/plugin-transform-runtime", {
+            "helpers": true,
+            "polyfill": true,
+            "regenerator": true
+        }],
+        ["module-resolver", {
+            "root": ["./"],
+            "alias": {
+                "@": "./src"
+            }
+        }],
+        "@babel/proposal-class-properties",
+        "@babel/proposal-object-rest-spread"
+    ]
+}
