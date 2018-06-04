@@ -1,6 +1,3 @@
-// import * as X from '@/models'
-// import * as SimplexNoise from 'simplex-noise'
-// console.log(SimplexNoise)
 import * as Model from '@/models'
 export { Model }
 import * as Controller from '@/controllers'
