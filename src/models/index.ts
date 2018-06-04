@@ -1,5 +1,5 @@
 export { WorldMap, world } from './WorldMap'
-import * as Constants from './Constants'
+import * as Constants from '@/Constants'
 export { Constants }
 export { Grid } from './Grid'
 export { Entity } from './Entity'

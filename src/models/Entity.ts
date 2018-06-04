@@ -1,4 +1,4 @@
-import { EntityType } from './Constants'
+import { EntityType } from '@/Constants'
 export class Entity {
   public type: EntityType
   public entityId: number

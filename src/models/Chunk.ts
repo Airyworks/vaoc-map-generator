@@ -1,4 +1,4 @@
-import { Climate } from './Constants'
+import { Climate } from '@/Constants'
 import { Grid } from './Grid'
 import { MapGenerator } from '@/controllers'
 

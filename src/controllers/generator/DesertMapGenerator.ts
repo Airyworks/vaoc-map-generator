@@ -2,7 +2,7 @@ import { BaseMapGenerator, intToGridType } from './BaseMapGenerator'
 import { generateFunc } from './generateFunc'
 import { Chunk } from '@/models/Chunk'
 import { Grid } from '@/models/Grid'
-import { Climate, GridType, EntityType } from '@/models/Constants'
+import { Climate, GridType, EntityType } from '@/Constants'
 import { populateFunc } from '@/controllers/generator/populateFunc'
 import { Entity } from '@/models'
 
