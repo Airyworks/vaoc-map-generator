@@ -13,6 +13,7 @@ function classifierTerrain(input: number): number {
   return 0
 }
 
+// TODO: replace 7 to GridType.length
 function classifierGridType(input: number): number {
   return Math.floor(7 * input)
 }

@@ -1,3 +1,4 @@
+export const CHUNK_SIDE = 64
 // Origin is chunk[0]'s climate
 export enum Climate { Tropical, Grassland, Iceland, Desert, Ocean, Origin }
 export enum GridType { Stone, Dirt, Water, Ice, Sand, Rock, Snowland }

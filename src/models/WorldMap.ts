@@ -1,5 +1,5 @@
 import { Chunk } from './Chunk'
-import { Climate } from '@/Constants'
+import { Climate, CHUNK_SIDE } from '@/Constants'
 
 let moveIter: [number, number] = [1, 0]
 const turn = () => {
@@ -119,4 +119,4 @@ export class WorldMap {
   }
 }
 
-export const world: WorldMap = new WorldMap(64)
+export const world: WorldMap = new WorldMap(CHUNK_SIDE)
