@@ -1,7 +1,5 @@
 "use strict";
 
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -35,13 +33,8 @@ Object.defineProperty(exports, "Chunk", {
     return _Chunk.Chunk;
   }
 });
-exports.Constants = void 0;
 
 var _WorldMap = require("./WorldMap");
-
-var Constants = _interopRequireWildcard(require("../Constants"));
-
-exports.Constants = Constants;
 
 var _Grid = require("./Grid");
 
