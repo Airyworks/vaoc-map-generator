@@ -15,13 +15,13 @@ var _BaseMapGenerator = require("./BaseMapGenerator");
 
 var _generateFunc2 = require("./generateFunc");
 
-var _Grid = require("src/models/Grid");
+var _Grid = require("../../models/Grid");
 
-var _Constants = require("src/Constants");
+var _Constants = require("../../Constants");
 
 var _populateFunc = require("./populateFunc");
 
-var _models = require("src/models");
+var _models = require("../../models");
 
 var GrasslandMapGenerator =
 /*#__PURE__*/

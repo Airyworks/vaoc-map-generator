@@ -1,5 +1,5 @@
 import { Chunk } from './Chunk';
-import { Climate } from 'src/Constants';
+import { Climate } from '../Constants';
 export declare class WorldMap {
     static randomClimate(hash: string): Climate;
     private static calculatePosition;

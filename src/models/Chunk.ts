@@ -1,6 +1,6 @@
-import { Climate } from 'src/Constants'
+import { Climate } from '../Constants'
 import { Grid } from './Grid'
-import { MapGenerator } from 'src/controllers'
+import { MapGenerator } from '../controllers'
 
 export class Chunk {
   public noise: string | number

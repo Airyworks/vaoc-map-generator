@@ -1,4 +1,4 @@
-import { EntityType } from 'src/Constants';
+import { EntityType } from '../Constants';
 export declare class Entity {
     type: EntityType;
     entityId: number;

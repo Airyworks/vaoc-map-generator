@@ -1,5 +1,5 @@
 import { Chunk } from './Chunk'
-import { Climate, CHUNK_SIDE } from 'src/Constants'
+import { Climate, CHUNK_SIDE } from '../Constants'
 
 let moveIter: [number, number] = [1, 0]
 const turn = () => {

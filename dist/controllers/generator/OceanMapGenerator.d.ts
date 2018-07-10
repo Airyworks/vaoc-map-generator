@@ -1,5 +1,5 @@
 import { BaseMapGenerator } from './BaseMapGenerator';
-import { Chunk } from 'src/models/Chunk';
+import { Chunk } from '../../models/Chunk';
 export declare class OceanMapGenerator implements BaseMapGenerator {
     generate(chunk: Chunk): void;
     populate(chunk: Chunk): void;

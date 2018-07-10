@@ -17,7 +17,7 @@ var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/de
 
 var _Chunk = require("./Chunk");
 
-var _Constants = require("src/Constants");
+var _Constants = require("../Constants");
 
 var moveIter = [1, 0];
 

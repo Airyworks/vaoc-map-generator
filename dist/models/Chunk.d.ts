@@ -1,4 +1,4 @@
-import { Climate } from 'src/Constants';
+import { Climate } from '../Constants';
 import { Grid } from './Grid';
 export declare class Chunk {
     noise: string | number;
