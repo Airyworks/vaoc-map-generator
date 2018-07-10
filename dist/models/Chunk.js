@@ -13,9 +13,9 @@ var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/creat
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
-var _Constants = require("../Constants");
+var _Constants = require("src/Constants");
 
-var _controllers = require("../controllers");
+var _controllers = require("src/controllers");
 
 var Chunk =
 /*#__PURE__*/

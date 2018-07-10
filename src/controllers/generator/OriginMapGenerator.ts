@@ -1,8 +1,8 @@
 import { BaseMapGenerator, intToGridType } from './BaseMapGenerator'
 import { generateFunc } from './generateFunc'
-import { Chunk } from '@/models/Chunk'
-import { Grid } from '@/models/Grid'
-import { Climate } from '@/Constants'
+import { Chunk } from 'src/models/Chunk'
+import { Grid } from 'src/models/Grid'
+import { Climate } from 'src/Constants'
 
 export class OriginMapGenerator implements BaseMapGenerator {  
   public generate(chunk: Chunk): void {

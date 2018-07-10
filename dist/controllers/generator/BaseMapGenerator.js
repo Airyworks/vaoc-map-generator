@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.intToGridType = intToGridType;
 
-var _Constants = require("../../Constants");
+var _Constants = require("src/Constants");
 
 function intToGridType(x) {
   var bt = _Constants.GridType[x.toString()];

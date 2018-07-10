@@ -1,5 +1,5 @@
-import { Chunk } from '@/models'
-import { GridType } from '@/Constants'
+import { Chunk } from 'src/models'
+import { GridType } from 'src/Constants'
 export interface BaseMapGenerator {
   // for generating map
   generate(chunk: Chunk): void 

@@ -1,10 +1,10 @@
 import { BaseMapGenerator, intToGridType } from './BaseMapGenerator'
 import { generateFunc } from './generateFunc'
-import { Chunk } from '@/models/Chunk'
-import { Grid } from '@/models/Grid'
-import { Climate, GridType, EntityType } from '@/Constants'
-import { Entity } from '@/models'
-import { populateFunc } from '@/controllers/generator/populateFunc'
+import { Chunk } from 'src/models/Chunk'
+import { Grid } from 'src/models/Grid'
+import { Climate, GridType, EntityType } from 'src/Constants'
+import { Entity } from 'src/models'
+import { populateFunc } from './populateFunc'
 
 export class TropicalMapGenerator implements BaseMapGenerator {  
   public generate(chunk: Chunk): void {

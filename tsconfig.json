@@ -10,12 +10,7 @@
     "allowSyntheticDefaultImports": true,
     "rootDir": "./src",                       
     "noImplicitAny": true,
-    "baseUrl": "./",                       
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    },  
+    "baseUrl": "./"
     // "esModuleInterop": true
     },
   "include": [

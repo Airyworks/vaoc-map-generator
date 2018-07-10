@@ -1,6 +1,6 @@
 import { Chunk } from './Chunk';
 import { Entity } from './Entity';
-import { Climate, GridType, Surface } from '@/Constants';
+import { Climate, GridType, Surface } from 'src/Constants';
 export declare class Grid {
     private static id;
     climate: Climate;

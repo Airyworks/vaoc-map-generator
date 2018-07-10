@@ -1,7 +1,7 @@
 {
   "name": "vaoc-map-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "map generator for Vaoc",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {

@@ -1,5 +1,5 @@
 import { BaseMapGenerator } from './BaseMapGenerator';
-import { Chunk } from '@/models/Chunk';
+import { Chunk } from 'src/models/Chunk';
 export declare class GrasslandMapGenerator implements BaseMapGenerator {
     generate(chunk: Chunk): void;
     populate(chunk: Chunk): void;
