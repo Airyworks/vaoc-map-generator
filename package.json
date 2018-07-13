@@ -28,6 +28,10 @@
     "tslint": "^5.10.0",
     "typescript": "^2.9.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airyworks/vaoc-map-generator.git"
+  },
   "author": "Illyrix@Airyworks",
   "license": "MIT"
 }
